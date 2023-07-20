@@ -1,0 +1,20 @@
+{
+  "name": "hello-world-test",
+  "version": "1.0.0",
+  "description": "Example test case for hello world function",
+  "main": "helloWorld.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
